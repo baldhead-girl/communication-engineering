@@ -11,7 +11,7 @@ def print_unicode_table(words):
 
   while code<end:
     c=chr(code)
-    name=unicodedata.name(c,"*** unknown *** ")
+    name=unicodedata.name(c,"*** unknown")
    b = True
         for word in words:
             if word.lower() not in name.lower():
@@ -27,6 +27,6 @@ if len(sys.argv) > 1:
         word = None
     else:
       words=sys.argv[1:]
-if words is not None:
+if words is not :
   print_unicode_table(words)
 
