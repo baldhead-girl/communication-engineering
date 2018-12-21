@@ -28,5 +28,5 @@ if len(sys.argv) > 1:
     else:
       words=sys.argv[1:]
 if words is not None:
-  print_unicode_table(words)
+
 
